@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #444;
+}
+
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 40px;
+  z-index: 10;
+}
+
+#controls button {
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  border: none;
+  border-radius: 50%;
+  background: #222;
+  color: white;
+  opacity: 0.8;
+}
